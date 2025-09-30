@@ -1,7 +1,7 @@
 Lang = {}
 
 Lang.Fail = {
-    tooFar = '%s Var For Langt Unna Til Å Aktivere %s',
+    tooFar = '%s var for langt unna til å aktivere %s',
 }
 
 Lang.Interact = {
@@ -14,8 +14,8 @@ Lang.Interact = {
     drawTextCoords = 'Raycast Koordinater:  \n X:  %s,  \n Y:  %s,  \n Z:  %s  \n[E] for å kopiere  \n[DEL] for å avbryte',
 }
 Lang.Notify = {
-    wrongPass = 'Du Skriv Inn Feil Passord',
-    noAccess = 'Du Har Ikke Tilgang Til Denne Stashen'
+    wrongPass = 'Du har skrevet inn feil passord!',
+    noAccess = 'Du har ikke tilgang til dette stashet.'
 }
 
 Lang.Ui = {
@@ -33,9 +33,9 @@ Lang.Ui = {
         header = 'Stash Konfigurasjon',
         name = "Stash Navn",
         job = "Jobber",
-        jobRank = "Minimum Jobb Rang",
+        jobRank = "Minimum Jobbstilling",
         gang = "Gjenger",
-        gangRank = "Minimum Gjeng Rang",
+        gangRank = "Minimum Gjengstilling",
         item = "Gjenstander",
         identifier = "Identifikatorer",
         weight = "Vekt",
@@ -59,7 +59,7 @@ Lang.Ui = {
 Lang.Vendor = {
     targetLabel = 'Kjøp Ryggsekk',
     targetIcon = 'fas fa-shopping-bag',
-    price = '$ %s',
+    price = '%s kr',
     inputTitle = 'Kjøp Ryggsekk',
     inputDesc = 'Betalingsmetode',
     inputOption1 = 'Kontant',
@@ -72,11 +72,11 @@ Lang.giveBag = {
     invalidPlayer = 'Ugyldig Spiller ID',
     invalidItem = 'Ugyldig Ryggsekk Item',
     noAccess = 'Du Har Ikke Tilgang Til Denne Kommandoen',
-    given = 'Du Har Gitt %s en %s',
-    received = 'Du Har Mottatt en %s Fra %s',
+    given = 'Du har gitt %s en %s',
+    received = 'Du har mottatt en %s fra %s',
     pid = 'Spiller ID',
     pidHelp = 'Mål Spiller ID',
-    item = 'Item Navn',
-    itemHelp = 'Ryggsekk Item Navn'
+    item = 'Gjendstandsnavn',
+    itemHelp = 'Ryggsekk Gjendstandsnavn'
 }
 return Lang
